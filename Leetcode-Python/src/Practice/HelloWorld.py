@@ -34,4 +34,19 @@ function(10)
 #while(n<5):
     #print(words[n])
    # n += 1
+   
+class Duck:
+    sound ='Quaack!'
+    def quack(self):
+        print(self.sound)
+        
+    def walk(self):
+        print('walks')
+
+def main():
+    donald = Duck()
+    donald.quack()
+    donald.walk()
+
+if __name__ == '__main__': main()
     

@@ -49,4 +49,13 @@ def main():
     donald.walk()
 
 if __name__ == '__main__': main()
-    
+
+x = 'hello'.capitalize() + "world".capitalize() + '{1:<09} {0:<02}'.format(8,9)
+a=1
+b=2
+y = f'seven {a} {b}'
+print('x is {}'.format(x))
+print(type(x))
+print(y)
+
+
